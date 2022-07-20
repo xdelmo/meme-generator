@@ -101,7 +101,7 @@ main {
   display: grid;
   /* max-width: 80vw; */
   grid-template: 1fr 1fr;
-  gap: 1em;
+  grid-gap: 1em;
   /* margin: auto; */
   max-width: 50rem;
 }

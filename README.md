@@ -29,7 +29,7 @@ This is a solution to the [Meme Generator project on Scrimba](https://scrimba.co
 
 ### Links
 
-<!-- - Live Site URL: [@Netlify](https://travel-journal-xdelmo.netlify.app/) -->
+<!-- - Live Site URL: [@Netlify](https://meme-generator-xdelmo.netlify.app/) -->
 
 - Solution URL: [@GitHub](https://github.com/xdelmo/meme-generator)
 
