@@ -6,11 +6,21 @@
   --clr-accent-dark: #672280;
   --clr-accent-light: #a626d3;
 
-  --clr-secondary-light: #d5d4d8;
-
-  --clr-text-light: #fff;
-
   --ff-main: "Karla", sans-serif;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --clr-primary: #fff;
+    --clr-secondary: #1d1d1c;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --clr-primary: #000;
+    --clr-secondary: #d5d4d8;
+  }
 }
 
 /* ---------------------- */
@@ -59,8 +69,10 @@ html {
 main {
   display: flex;
   justify-content: center;
+  /* align-items: center; */
   padding: 2.25em;
-  /* height: 100vh; */
+  /* min-height: 100vh; */
+  background-color: var(--clr-primary);
 }
 
 /* HEADER */
@@ -76,7 +88,7 @@ main {
     var(--clr-accent-dark) 1.18%,
     var(--clr-accent-light) 100%
   );
-  color: var(--clr-text-light);
+  color: var(--clr-primary);
 }
 
 .header--img {
@@ -109,8 +121,7 @@ main {
 .form--input {
   font-family: var(--ff-main);
   border-radius: 5px;
-  border: 1px solid var(--clr-secondary-light);
-  /* text-indent: 5px; */
+  border: 1px solid var(--clr-secondary);
   padding: 1em 3em 1em 1em;
 }
 
@@ -127,13 +138,13 @@ main {
     var(--clr-accent-dark) 1.18%,
     var(--clr-accent-light) 100%
   );
-  color: var(--clr-text-light);
+  color: white;
   border: none;
   cursor: pointer;
 }
 
 .form--button:hover {
-  filter: brightness(80%);
+  background: var(--clr-accent-dark);
 }
 
 .form--button:focus {
@@ -166,7 +177,7 @@ main {
   margin: 0.5em 0;
   padding: 0 5px;
   font-family: impact, sans-serif;
-  font-size: 2rem;
+  font-size: 1.5em;
   text-transform: uppercase;
   color: white;
   letter-spacing: 1px;
@@ -194,7 +205,7 @@ main {
     var(--clr-accent-dark) 1.18%,
     var(--clr-accent-light) 100%
   );
-  color: var(--clr-text-light);
+  color: var(--clr-primary);
 }
 
 .footer--link {
