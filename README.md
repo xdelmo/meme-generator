@@ -20,8 +20,8 @@ This is a solution to the [Meme Generator project on Scrimba](https://scrimba.co
 
 ### The challenge
 
-- Writes top and bottom texts on memes via React form
-- Gets a random meme image calling APIs
+- Write top and bottom texts on memes via React form
+- Get a random meme image calling APIs
 
 ### Screenshot
 
@@ -29,8 +29,7 @@ This is a solution to the [Meme Generator project on Scrimba](https://scrimba.co
 
 ### Links
 
-<!-- - Live Site URL: [@Netlify](https://meme-generator-xdelmo.netlify.app/) -->
-
+- Live Site URL: [@Netlify](https://meme-generator-xdelmo.netlify.app/)
 - Solution URL: [@GitHub](https://github.com/xdelmo/meme-generator)
 
 ### Getting Started with Create React App
