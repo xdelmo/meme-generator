@@ -58,11 +58,22 @@ img {
 
 html {
   font-family: var(--ff-main);
+  background-color: var(--clr-primary);
 }
 
 /* ---------------------- */
 /* Components             */
 /* ---------------------- */
+
+/* APP */
+
+/* to push footer to the bottom of page when content is shorter than viewheight port */
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
 
 /* MAIN */
 

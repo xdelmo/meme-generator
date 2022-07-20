@@ -65,6 +65,7 @@ I'd like to:
 ### Useful resources
 
 - [ReactJS](https://reactjs.org/tutorial/tutorial.html) - How to set up a local development environment on your computer
+- [StackOverflow](https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing) - How to push a footer to the bottom of page when content is short or missing
 
 ## Author
 
